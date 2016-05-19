@@ -1,10 +1,7 @@
-require "filepicker/rails/version"
-require "filepicker/rails/configuration"
-require "filepicker/rails/form_builder"
-require "filepicker/rails/view_helpers"
-require "filepicker/rails/railtie"
+require "filepicker_rails/configuration"
+require "filepicker_rails/policy"
+require "filepicker_rails/engine"
+require "filepicker_rails/tag"
 
-module Filepicker
-  module Rails
-  end
+module FilepickerRails
 end
